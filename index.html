@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OfCrypto — Decentralized Finance, Reimagined</title>
+  <meta name="description" content="OfCrypto is a next-generation decentralized finance protocol. Trade, lend, and earn across a borderless network — without banks, without borders." />
+  <meta name="theme-color" content="#06060d" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body id="top">
+  <!-- Animated constellation background -->
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+  <div class="bg-glow bg-glow-1" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow-2" aria-hidden="true"></div>
+
+  <!-- Header / Nav -->
+  <header class="site-header" id="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#top" aria-label="OfCrypto home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="28" height="28"><path d="M16 2 L29 9 V23 L16 30 L3 23 V9 Z" fill="none" stroke="url(#bg)" stroke-width="2"/><circle cx="16" cy="16" r="5" fill="url(#bg)"/><defs><linearGradient id="bg" x1="0" y1="0" x2="32" y2="32"><stop stop-color="#00ffc6"/><stop offset="1" stop-color="#7c3aff"/></linearGradient></defs></svg>
+        </span>
+        <span class="brand-name">OfCrypto</span>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#cta">Get Started</a></li>
+        <li class="nav-cta-item"><a href="#cta" class="btn btn-primary btn-sm">Launch App</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-orb" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <span class="eyebrow reveal"><span class="dot"></span> Decentralized Finance · Mainnet Live</span>
+        <h1 class="hero-title reveal">Welcome to <span class="grad">OfCrypto</span></h1>
+        <p class="hero-tag reveal">The open financial layer for everyone. Trade, lend, and earn across a borderless network — without banks, without borders, without compromise.</p>
+        <div class="hero-actions reveal">
+          <a href="#cta" class="btn btn-primary">Join the Revolution <span aria-hidden="true">→</span></a>
+          <a href="#features" class="btn btn-ghost">Explore Features</a>
+        </div>
+
+        <div class="hero-stats reveal">
+          <div class="stat">
+            <div class="stat-value"><span class="stat-num" data-count="2.4" data-decimals="1">0</span><span class="stat-suffix">B+</span></div>
+            <div class="stat-label">Total Volume</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value"><span class="stat-num" data-count="180" data-decimals="0">0</span><span class="stat-suffix">K+</span></div>
+            <div class="stat-label">Active Wallets</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value"><span class="stat-num" data-count="0.01" data-decimals="2">0</span><span class="stat-suffix">s</span></div>
+            <div class="stat-label">Avg. Finality</div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-hint" aria-hidden="true"><span></span> Scroll</div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="features section">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="eyebrow">Why OfCrypto</span>
+          <h2 class="section-title">Built for the next<br/>billion users</h2>
+          <p class="section-sub">Four pillars that make decentralized finance feel effortless.</p>
+        </header>
+
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 6v6c0 5 3.5 8 8 10 4.5-2 8-5 8-10V6Z"/><path d="m9 12 2 2 4-4"/></svg>
+            </div>
+            <h3>Secure Transactions</h3>
+            <p>Every transfer is sealed by audited smart contracts and zero-knowledge proofs. Your assets, cryptographically yours.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+            <h3>Low Fees</h3>
+            <p>Sub-cent transaction costs at any scale. No hidden spreads, no gas surprises — just transparent, predictable pricing.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h7l-1 8 10-12h-7Z"/></svg>
+            </div>
+            <h3>Fast Transfers</h3>
+            <p>Final settlement in under a second, anywhere on earth. A purpose-built consensus layer that doesn't make you wait.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><circle cx="5" cy="5" r="2"/><circle cx="19" cy="5" r="2"/><circle cx="5" cy="19" r="2"/><circle cx="19" cy="19" r="2"/><path d="m6.5 6.5 3 3M17.5 6.5l-3 3M6.5 17.5l3-3M17.5 17.5l-3-3"/></svg>
+            </div>
+            <h3>Decentralized</h3>
+            <p>No central authority, no single point of failure. A globally distributed validator set keeps the network censorship-resistant.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about section">
+      <div class="container about-grid">
+        <div class="about-visual reveal">
+          <div class="token">
+            <div class="token-ring token-ring-1"></div>
+            <div class="token-ring token-ring-2"></div>
+            <div class="token-ring token-ring-3"></div>
+            <div class="token-core">
+              <svg viewBox="0 0 32 32" width="56" height="56"><path d="M16 2 L29 9 V23 L16 30 L3 23 V9 Z" fill="none" stroke="url(#tg)" stroke-width="1.5"/><circle cx="16" cy="16" r="5" fill="url(#tg)"/><defs><linearGradient id="tg" x1="0" y1="0" x2="32" y2="32"><stop stop-color="#00ffc6"/><stop offset="1" stop-color="#7c3aff"/></linearGradient></defs></svg>
+            </div>
+            <span class="token-node n1"></span>
+            <span class="token-node n2"></span>
+            <span class="token-node n3"></span>
+            <span class="token-node n4"></span>
+          </div>
+        </div>
+
+        <div class="about-copy">
+          <span class="eyebrow reveal">About OfCrypto</span>
+          <h2 class="section-title reveal">Finance, rewritten<br/>as a public good</h2>
+          <p class="reveal">OfCrypto is a next-generation decentralized finance protocol built on a proof-of-stake settlement layer. It lets anyone — anywhere — hold, swap, lend, and earn digital assets without relying on a bank, broker, or custodian.</p>
+          <p class="reveal">Launched by a global collective of engineers and researchers, OfCrypto combines audited smart contracts, a distributed validator network, and an intent-based routing engine to deliver financial primitives that are open, composable, and built to last.</p>
+          <ul class="about-list reveal">
+            <li><span class="check" aria-hidden="true">✓</span> Non-custodial by design — you always hold your keys</li>
+            <li><span class="check" aria-hidden="true">✓</span> Open-source, audited, and formally verified</li>
+            <li><span class="check" aria-hidden="true">✓</span> Carbon-neutral consensus since day one</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="cta" class="cta section">
+      <div class="container cta-inner reveal">
+        <div class="cta-glow" aria-hidden="true"></div>
+        <span class="eyebrow center">Ready when you are</span>
+        <h2 class="cta-title">Ready to Invest?</h2>
+        <p class="cta-sub">Create your wallet in under a minute and step into the open economy. No paperwork, no gatekeepers.</p>
+        <form class="cta-form" id="signup-form" novalidate>
+          <input type="email" id="signup-email" name="email" placeholder="you@example.com" aria-label="Email address" required />
+          <button type="submit" class="btn btn-primary">Get Started</button>
+        </form>
+        <p class="cta-note" id="cta-note" role="status" aria-live="polite"></p>
+        <p class="cta-disclaimer">Sample demo — no real account is created. Not financial advice.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a class="brand" href="#top">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" width="24" height="24"><path d="M16 2 L29 9 V23 L16 30 L3 23 V9 Z" fill="none" stroke="url(#fg)" stroke-width="2"/><circle cx="16" cy="16" r="5" fill="url(#fg)"/><defs><linearGradient id="fg" x1="0" y1="0" x2="32" y2="32"><stop stop-color="#00ffc6"/><stop offset="1" stop-color="#7c3aff"/></linearGradient></defs></svg>
+          </span>
+          <span class="brand-name">OfCrypto</span>
+        </a>
+        <p class="footer-tag">The open financial layer for everyone.</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#cta">Get Started</a>
+      </nav>
+
+      <div class="footer-social">
+        <a href="#" aria-label="Twitter" title="Twitter">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18.9 2H22l-7.5 8.6L23 22h-6.8l-5.3-7-6 7H1.8l8-9.2L1 2h7l4.8 6.4L18.9 2Zm-1.2 18h1.9L7.4 4H5.4l12.3 16Z"/></svg>
+        </a>
+        <a href="#" aria-label="Discord" title="Discord">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20 4.4A19 19 0 0 0 15.3 3l-.3.5a14 14 0 0 1 4.1 1.3 13 13 0 0 0-11.2 0A14 14 0 0 1 12 3.5L11.7 3A19 19 0 0 0 7 4.4 19.7 19.7 0 0 0 3.2 18a19 19 0 0 0 5.8 2.9l.6-1a12 12 0 0 1-2-1l.5-.4a13.6 13.6 0 0 0 11.6 0l.5.4a12 12 0 0 1-2 1l.6 1A19 19 0 0 0 23.8 18 19.7 19.7 0 0 0 20 4.4ZM9.3 15.5c-1 0-1.7-.9-1.7-2s.8-2 1.7-2 1.7.9 1.7 2-.7 2-1.7 2Zm5.4 0c-1 0-1.7-.9-1.7-2s.8-2 1.7-2 1.7.9 1.7 2-.7 2-1.7 2Z"/></svg>
+        </a>
+        <a href="#" aria-label="GitHub" title="GitHub">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.6.3-1.1.6-1.4-2.2-.300-4.6-1.1-4.6-5a4 4 0 0 1 1-2.7c-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.7 1a9.4 9.4 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.4.2 2.4.1 2.7a4 4 0 0 1 1 2.7c0 3.9-2.3 4.7-4.6 5 .3.3.6.9.6 1.8v2.7c0 .3.2.6.7.5A10 10 0 0 0 12 2Z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> OfCrypto. A fictional project — for design demonstration only.</p>
+      <p class="footer-disclaimer">Not financial advice. No real cryptocurrency, tokens, or accounts are involved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
